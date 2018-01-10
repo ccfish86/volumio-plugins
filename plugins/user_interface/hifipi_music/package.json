@@ -1,0 +1,23 @@
+{
+	"name": "hifipi_music",
+	"version": "1.0.0",
+	"description": "To access the service from  hifipi.com",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "hifipi",
+	"license": "ISC",
+	"volumio_info": {
+		"prettyName": "hifipi_music",
+		"icon": "fa-music",
+		"plugin_type": "user_interface"
+	},
+	"dependencies": {
+		"fs-extra": "^0.28.0",
+		"kew": "^0.7.0",
+		"path": "^0.12.7",
+		"v-conf": "^1.4.0",
+        "axios": "^0.17.0"
+	}
+}
